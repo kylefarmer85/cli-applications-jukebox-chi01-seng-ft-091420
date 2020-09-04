@@ -45,7 +45,7 @@ def exit_jukebox
 end
 
 def run(songs_array)
-  until input == "exit"
+  until false do
   puts "Please enter a command:"
   input = gets.downcase.strip
     if input == "list"
@@ -54,9 +54,11 @@ def run(songs_array)
       play(songs_array)
     elsif input == "help"
       help
+    elsif input == "exit"  
+      exit_jukebox
+      break
     end
   end
-  exit_jukebox
 end
 
 # def run(songs_array)
