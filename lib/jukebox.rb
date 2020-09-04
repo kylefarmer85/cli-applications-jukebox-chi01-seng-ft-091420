@@ -44,6 +44,22 @@ def exit_jukebox
   puts"Goodbye"
 end
 
+# def run(songs_array)
+#   puts "Please enter a command:"
+#   input = gets.downcase.strip
+#   if input == "exit"
+#     exit_jukebox
+#   elsif input == "list"
+#     list(songs_array)
+#     run(songs_array)
+#   elsif input == "play"
+#     play(songs_array)
+#     run(songs_array)
+#   elsif input == "help"
+#     help
+#     run(songs_array)
+#   end
+# end
 
 # def run(songs_array)
 #   puts "Please enter a command:"
