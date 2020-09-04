@@ -58,6 +58,7 @@ def run(songs_array)
   end
   exit_jukebox
 end
+end
 
 # def run(songs_array)
 #   puts "Please enter a command:"
