@@ -45,7 +45,7 @@ def exit_jukebox
 end
 
 def run(songs_array)
-  unitl input == "exit"
+  until input == "exit"
   puts "Please enter a command:"
   input = gets.downcase.strip
     if input == "list"
@@ -57,7 +57,6 @@ def run(songs_array)
     end
   end
   exit_jukebox
-end
 end
 
 # def run(songs_array)
