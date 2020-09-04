@@ -46,7 +46,6 @@ end
 
 def run(songs_array)
   until false do
-  help  
   puts "Please enter a command:"
   input = gets.downcase.strip
     if input == "list"
